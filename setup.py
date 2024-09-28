@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     install_requires = f.read()
 
 setuptools.setup(
-    version="0.1.0"
+    version="0.1.0",
     install_requires=install_requires,
     long_description=long_description,
     long_description_content_type="text/markdown",
